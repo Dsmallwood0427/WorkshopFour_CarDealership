@@ -18,6 +18,10 @@ public class Dealership {
         this.inventory = new ArrayList<>();
     }
 
+    public Dealership() {
+        
+    }
+
     public List<Vehicle> getVehiclesByPrice(double min, double max) {
         return null;
     }
@@ -68,5 +72,23 @@ public class Dealership {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public List<Vehicle> findByMakeModel(String rmMake, String rmModel) {
+    }
+
+    public List<Vehicle> listAllVehicles() {
+    }
+
+    public List<Vehicle> findByPriceRange(double minPrice, double maxPrice) {
+    }
+
+    public List<Vehicle> findByYear(int fYear) {
+    }
+
+    public List<Vehicle> findByColor(String fColor) {
+    }
+
+    public List<Vehicle> findByMileageRange(int minMileage, int maxMileage) {
     }
 }
